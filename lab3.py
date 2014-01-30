@@ -30,11 +30,6 @@ from tai.ai import *
 #       although you cannot avoid all ties.
 #     * Modify the human player to keep the user from 'breaking' the program.
 #     * Implement a graphical drawing function with turtles.
-#     * Extremely Extra Credit, (no due date):
-#         Allow users to click the turtle canvas to play,
-#         rather than typing the position into the CLI.
-#         this will require event programming. You will want to look into
-#         how threads work in python.
 ####
 
 ####
