@@ -9,7 +9,7 @@ from tai.runner import *
 from tai.ai import *
 
 ####
-# Before we begin, go to the project folder ../tai/ and type
+# Before we begin, go to the project folder and type
 # $ pydoc tai.runner
 #
 # Now open the python file tai/runner.py
@@ -19,7 +19,7 @@ from tai.ai import *
 # Now look at the docs for tai.ai
 # $ pydoc tai.ai
 #
-# It lists the sample AIs you can test your code against. To use the random ai for instance, pass it to `run_game(random, human, pretty_draw)
+# It lists the sample AIs you can test your code against. To use the random ai for instance, pass it to `run_game(random, human, pretty_draw)`
 # 
 ####
 
@@ -29,7 +29,7 @@ from tai.ai import *
 #     * Create an awesome AI tic-tac-toe player. The best AI will never loose,
 #       although you cannot avoid all ties.
 #     * Modify the human player to keep the user from 'breaking' the program.
-#     * Implement a graphical drawing function with turtles.
+#     * Implement a graphical drawing function with turtles. To display the board outside of the CLI
 ####
 
 ####
@@ -95,4 +95,4 @@ def human(board,player):
 # CODE START
 ####
 winner = run_game(basic_ai, random, pretty_draw)
-print winner, "won!"
+print "player", winner, "won!"
