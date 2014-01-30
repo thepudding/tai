@@ -30,8 +30,11 @@ from tai.ai import *
 #       although you cannot avoid all ties.
 #     * Modify the human player to keep the user from 'breaking' the program.
 #     * Implement a graphical drawing function with turtles.
-#     * Allow users to click the turtle canvas to play,
-#       rather than typing the position into the CLI.
+#     * Extremely Extra Credit, (no due date):
+#         Allow users to click the turtle canvas to play,
+#         rather than typing the position into the CLI.
+#         this will require event programming. You will want to look into
+#         how threads work in python.
 ####
 
 ####
@@ -42,12 +45,12 @@ from tai.ai import *
 #    * Copy the sample functions into the python visualizer we used in class
 #    * use helper functions!
 #    
-#    For user input:
-#    --------------
+#    For user input `human(board,player)`:
+#    ------------------------------------
 #    * read up on try except
 #    
-#    For your AI:
-#    -----------
+#    For your AI `basic_ai(board,player)`:
+#    ------------------------------------
 #    * would this help?
 #        random.shuffle()
 #    * can you do this?
