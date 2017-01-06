@@ -9,6 +9,9 @@ This is an open ended programming project for beginners. Its aims are to:
 * Demystify the basic ideas behind AI.
 * Demonstrate and encourage the use of documentation.
 
+tai can work especially well as a follow up assignment to this in class activity: [Winning games: the
+perfect tic-tac-toe player](http://www.cs4fn.org/teachers/activities/winatoxo/winatoxo.pdf).
+
 ## Requisite Python Concepts
 
 * booleans
